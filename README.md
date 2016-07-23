@@ -1,0 +1,2 @@
+# AndroidTest
+Testing for .gitignore
