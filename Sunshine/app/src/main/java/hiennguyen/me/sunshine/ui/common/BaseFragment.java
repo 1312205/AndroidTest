@@ -60,10 +60,6 @@ public abstract class BaseFragment<ViewModel> extends Fragment {
 
     }
 
-    public boolean onBackPressed() {
-        return false;
-    }
-
     @Override
     public void onDestroyView() {
         super.onDestroyView();

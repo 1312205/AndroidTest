@@ -13,7 +13,7 @@ android {
         versionCode 1
         versionName "1.0"
 
-        resValue "string", "open_weather_url", "http://api.openweathermap.org/data/2.5/weather/"
+        resValue "string", "open_weather_url", "http://api.openweathermap.org/data/2.5/"
         resValue "string", "open_weather_api_key", "d30d7e3341272983cfb2a378c00c15a1"
     }
 
@@ -66,4 +66,5 @@ dependencies {
     compile 'com.squareup.retrofit2:adapter-rxjava:2.0.1'
     compile 'com.squareup.okhttp3:okhttp:3.2.0'
     compile 'com.squareup.okhttp3:logging-interceptor:3.2.0'
+    compile 'com.cantrowitz:rxbroadcast:1.0.0'
 }
